@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+    background-color: #F1F1C6;
+    --pink : #A2345C;
+    --lightbrown:#8E7D5D;
+    font-family:roboto;
+  
+}
+
+
+
+.card{
+    margin: auto;
+    height: 30rem;
+    width: 350px;
+    text-align: center;
+    background-color: white;
+    
+    align-items: center;
+    box-shadow: 1px 1px 30px var(--lightbrown);
+    border-radius: 35px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.waves{
+    background-color: var(--pink);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    display: absolute;
+    top: 0;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+    padding-top: 1rem;
+    
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+
+li{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    padding: 5px;
+}
+
+button {
+    
+    border: none;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 10px;
+    width: 35%;
+    height: 30px;
+    font-size: 10px;
+}
+form{
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    align-items:start;
+    
+}
+
+.text{
+    height: 90px;
+    font-size: 15px;
+}
+
+.follow{
+    background-color: #cf4879;
+    color: white;
+}
+.message{
+    border: 1px solid gray;
+    color: gray;  
+}
+
+.link{
+    color: gray;
+    font-size: 12px;
+}
+
+.properties >*{
+    padding: 0;
+    margin: 0;
+}
+

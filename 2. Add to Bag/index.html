@@ -3,42 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Add To Bag</title>
 </head>
 <body>
     
     <div class="container" >
         <div class="perspective">
-
+            <img class="main" src="DALL·E 2024-11-18 19.32.52.webp" alt="Actualimg">
+        </div>
+        <div class="sec">
+            <img  src="DALL·E 2024-11-18 19.32.52.webp" alt="Actualimg">
+            <img src="DALL·E 2024-11-18 19.32.56.webp" alt="">
+            <img src="DALL·E 2024-11-18 19.33.10.webp" alt="">
         </div>
         <div class="description">
-            <p>Polo Ralph</p>
+            <p class="name">Polo Ralph</p>
 
             <h2>Custom Fit Polo Bear <br>
             Oxford Shirt</h2>
 
-            <p>Blue polo with classic cut. Made of amooth and soft cottn.</p>
+            <p class="desc">Blue polo with classic cut. Made of amooth and soft cottn.</p>
+        
+            <p class="actualPrice">$99.00</p>
+            <p class="discount">-25%</p>
+            <p class="oldPrice">$132.00</p>
         </div>
+        <div class="description">
+        <p class="sizeText">Choose size</p>
+            <form action="">
+                <label class="sizeItems" >
+                    
+                    <button>S</button>
+                    <button>M</button>
+                    <button>L</button>
+                    <button>XL</button>
+                    <button>XXL</button>
+                </label>
 
-        <div class="price">
-            <p>$99.00</p>
-            <p>-25%</p>
-            <p>$132.00</p>
-        </div>
-
-        <p>Choose size</p>
-        <form action="">
-            <label class="size" >
-                
-                <input type="radio">S>
-                <input type="radio">M>
-                <input type="radio">L>
-                <input type="radio">XL>
-                <input type="radio">XXL>
-            </label>
-
-            <input type="submit" value="Add to bag">
-        </form>
+                <input type="submit" value="Add to bag">
+            </form>
+    </div>
     </div>
 </body>
 </html>
